@@ -1,8 +1,35 @@
 public class PracticeOnStrings {
 
 	public static void main(String[] args) {
-		wordRev2();
+		wordRev3();
 	}	
+	public static void revStr() {
+		String input = " sampath Kumar Kosireddi";
+		//Expected Response =idderisoK ramuK htapmas 
+		String out = " ";
+		for (int i=input.length()-1;i>=0;i--) {
+			out = out+input.charAt(i);
+		}
+		System.out.println(out);
+		
+	}
+	public static void wordRev3() {
+		String input = "sampath Kuamr Kosireddi";
+		String [] spli = input.split(" ");
+		String out = " ";
+		for (int i=spli.length-1;i>=0;i--) {
+			 out = spli[i];
+			for(int j=out.length()-1;j>=0;j--) {
+				char ch = out.charAt(j);
+				if(j==0) {
+					ch = Character.toUpperCase(ch);
+				}
+				System.out.print(ch);
+			}
+			System.out.print(" ");
+		}
+		
+	}
 	public static void specialCharacter1() {
 		String input = "e#rg5$23^45!w)e&r(t";
 //		Expected Respsoen 
