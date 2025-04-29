@@ -6,6 +6,8 @@ public class Check {
 	       int b=10;
 	        numberPrinting(a, b);
 	        // Recursive java
+
+		//Recursive model
 	}
 
 	private static void numberPrinting(int a, int b) {
