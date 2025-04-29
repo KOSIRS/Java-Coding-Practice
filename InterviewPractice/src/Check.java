@@ -5,6 +5,7 @@ public class Check {
 		 int a=1;
 	       int b=10;
 	        numberPrinting(a, b);
+	        // Recursive java
 	}
 
 	private static void numberPrinting(int a, int b) {
