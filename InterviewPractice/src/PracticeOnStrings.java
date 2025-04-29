@@ -2,6 +2,7 @@ public class PracticeOnStrings {
 
 	public static void main(String[] args) {
 		wordRev3();
+		// needs to run the query
 	}	
 	public static void revStr() {
 		String input = " sampath Kumar Kosireddi";
